@@ -94,12 +94,16 @@ print  """
 jalan("\033[1;97m•◈•───────•◈ I am not responsible for any illegal activities. •◈•───────•◈•")  
 
 
-jalan("\033[1;96m•◈•   _____ _____  ______ ______ _____ _____ ")
-jalan("\033[1;96m•◈•  / ____|  __ \|  ____|  ____|  __ \_   _|")
-jalan("\033[1;97m•◈• | (___ | |__) | |__  | |__  | |  | || |  ")
-jalan("\033[1;96m•◈•  \___ \|  ___/|  __| |  __| | |  | || |  ")
-jalan("\033[1;96m•◈•  ____) | |    | |____| |____| |__| || |_ ")
-jalan("\033[1;96m•◈• |_____/|_|    |______|______|_____/_____|")
+jalan("\033[1;96m•◈•   
+jalan("\033[1;96m   _____       _    _                         _   
+jalan("\033[1;96m  / ____|     | |  | |                       | |  
+jalan("\033[1;96m | (___   __ _| | _| |__   __ ___      ____ _| |_ 
+jalan("\033[1;96m  \___ \ / _` | |/ / '_ \ / _` \ \ /\ / / _` | __|
+jalan("\033[1;96m  ____) | (_| |   <| | | | (_| |\ V  V / (_| | |_ 
+jalan("\033[1;96m |_____/ \__,_|_|\_\_| |_|\__,_| \_/\_/ \__,_|\__|
+                                                  
+                                                  
+
  
 jalan("   \033[1;91m Do everything on your own risk")	
 jalan("   \033[1;91m I am not responsible for any illegal activities -SAKHAWAT ")	
@@ -122,8 +126,8 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw
-')
+            os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
+
     else:
         print "Wrong Username"
         os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
