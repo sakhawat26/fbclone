@@ -112,21 +112,21 @@ jalan(" -----")
  
 jalan("\033[1;91m Do everything on your own risk.")	
 jalan("\033[1;96m I'm not responsible for any illegal activities.")
-jalan("---\033[1;96m𝕊𝕒𝕜𝕙𝕒𝕨𝕒𝕥")	
+jalan("                                          ---\033[1;96m𝕊𝕒𝕜𝕙𝕒𝕨𝕒𝕥")	
 
 jalan("\033[1;93m To get any help join our Facebook Group \033[1;96m(Cyber Zone).")
 
 jalan("\033[1;96m•◈•──────────•◈•       \033[1;92mLet's start      \033[1;96m•◈•──────────•◈•")
 
-CorrectUsername = "Sakhawat"
+CorrectUsername = "Sakhawat26"
 CorrectPassword = "1926"
 
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mFB Cloner USER ID \x1b[1;96m>>>> ")
+    username = raw_input("\033[1;96m[☆] \x1b[1;97mEnter FB Cloner USER ID \x1b[1;96m>>>> ")
     if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mFB Cloner PASWORD \x1b[1;96m>>>> ")
+    	password = raw_input("\033[1;96m[☆] \x1b[1;97mEnter FB Cloner PASWORD \x1b[1;96m>>>> ")
         if (password == CorrectPassword):
             print "Logged in successfully as " + username
             loop = 'false'
@@ -150,7 +150,7 @@ def login():
 		print 50*"\033[1;96m▪"
 		
 		
-		print('          \033[1;97m[◉] \x1b[1;96mLogin New Fresh Account \033[1;97m[◉]' )
+		print('          \033[1;97m[◉] \x1b[1;96mLogin with new FB account \033[1;97m[◉]' )
 		id = raw_input('          \033[1;97m[◉] \033[1;97mID/Email \x1b[1;91m: \x1b[1;92m')
 		pwd = raw_input('          \033[1;97m[◉] \033[1;97mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
