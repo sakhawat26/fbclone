@@ -131,11 +131,11 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "Wrong password,join our FB Group to get the correct password"
+            print "\033[1;91mWrong!,\033[1;92mjoin our FB Group to get the correct password"
             os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
     else:
-        print "Wrong Username,join our FB Group to get the correct username"
+        print "\033[1;91mWrong!,\033[1;92mjoin our FB Group to get the correct username"
         os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
 
