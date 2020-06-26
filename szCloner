@@ -57,8 +57,8 @@ logo = """
 \033[1;96m    ____) | (_| |   <| | | | (_| |\ V  V / (_| | |_ 
 \033[1;92m   |_____/ \__,_|_|\_\_| |_|\__,_| \_/\_/ \__,_|\__|
                                                   
-\033[1;93m      Facebook : www.facebook.com/groups/cyberzone360    
-\033[1;93m      YouTube  : TiPS&TRiCKS 360
+\033[1;93m     Facebook : www.facebook.com/groups/cyberzone360    
+\033[1;93m     YouTube  : TiPS&TRiCKS 360
 \033[1;96m ♦♦♦================================================♦♦♦
 """
 def tik():
@@ -95,7 +95,7 @@ print  """
 \033[1;93m╚═══╩═╗╔╩══╩══╩╝ ╚════╩══╩╝╚╩══╝
 \033[1;93m    ╔═╝║
 \033[1;93m    ╚══╝ 
-                                                                                                                                                                                                                                   
+\033[1;93m www.facebook.com/groups/cyberzone360                                                                                                                                                                                                                            
 """
 
 jalan(" \033[1;96m•◈•───────•◈    \033[1;92mWelcome to szFB Cloner    \033[1;96m◈•───────•◈•")  
