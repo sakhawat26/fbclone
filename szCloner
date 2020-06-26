@@ -98,7 +98,7 @@ print  """
                                                                                                                                                                                                                              
 """
 
-jalan(" \033[1;96m◈===========◈    \033[1;92mWelcome to szFB Cloner    \033[1;96m◈===========◈")  
+jalan(" \033[1;96m◈===========◈   \033[1;92mWelcome to szFB Cloner   \033[1;96m◈===========◈")  
 
 
 jalan("\033[1;96m")
@@ -116,7 +116,7 @@ jalan("                                          ---\033[1;92m𝕊𝕒𝕜𝕙�
 
 jalan("\033[1;93m To get any help join our Facebook Group \033[1;96m(Cyber Zone).")
 
-jalan("\033[1;96m◈===============◈       \033[1;92mLet's start      \033[1;96m◈================◈")
+jalan("\033[1;96m◈===============◈      \033[1;92mLet's start     \033[1;96m◈===============◈")
 
 CorrectUsername = "Sakhawat26"
 CorrectPassword = "1926"
