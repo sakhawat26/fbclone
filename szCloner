@@ -93,8 +93,8 @@ print  """
 \033[1;93m║║ ╔╣║ ║║╔╗║║═╣╔╝ ╔╝╔╝║╔╗║╔╗╣║═╣
 \033[1;93m║╚═╝║╚═╝║╚╝║║═╣║ ╔╝ ╚═╣╚╝║║║║║═╣
 \033[1;93m╚═══╩═╗╔╩══╩══╩╝ ╚════╩══╩╝╚╩══╝
-\033[1;93m    ╔═╝║
-\033[1;93m    ╚══╝ \033[1;92m www.fb.com/groups/cyberzone360
+\033[1;93m    ╔═╝║ \033[1;92m www.fb.com/groups/cyberzone360
+\033[1;93m    ╚══╝ 
                                                                                                                                                                                                                              
 """
 
@@ -131,11 +131,11 @@ while (loop == 'true'):
             print "Logged in successfully as " + username
             loop = 'false'
         else:
-            print "Wrong Password"
+            print "Wrong password,join our FB Group to get the correct password"
             os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
     else:
-        print "Wrong Username"
+        print "Wrong Username,join our FB Group to get the correct username"
         os.system('xdg-open https://facebook.com/groups/cyberzone360')
 
 
